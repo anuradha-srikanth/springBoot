@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<!-- saved from url=(0167)https://www.greyhound.com/en/ecommerce/tickets?confirmationNumber=17067966&lastname=SRIKANTH&utm_source=confirmation&utm_medium=email&utm_campaign=e-ticket-chose-print -->
+<html lang="en-us" id="blankHtml" class=" js flexbox webgl no-touch geolocation rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent svg inlinesvg smil svgclippaths"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image/png" href="https://www.greyhound.com/content/images/favicon/favicon.png">
+    
+    
+
+
+
+<link rel="canonical" href="https://www.greyhound.com/en/ecommerce/tickets">
+    <script src="./tickets_files/jquery-1.11.2.min.js"></script>
+    <script>
+        var $gh = jQuery;
+    </script>
+    
+
+
+<script>
+    var utcDate = new Date();
+    utcDate.setUTCHours(4, 32, 5);
+    utcDate.setUTCDate(16);
+    var ConfigurationSettings = {
+        ApiUrl: "https://pegasus.greyhound.com/GhWebsite/",
+        RrApiUrl: "https://pegasus.greyhound.com/GhWebsiteRoadRewards/",
+        CommonApiUrl: "https://pegasus.greyhound.com/GhCommon/",
+        ZipCodeClientRequestTimeout: "1500",
+        ZipCodeFieldDisableTime: "1000",
+        UseZipCodeLookupService: true,
+        TokenizationUrl: "https://ght.greyhound.com/TokenizeGateway/webService/Tokenize",
+        TokenizationEnabled: true,
+        AmiaServiceEnabled: false,
+        MinimumLocationSearchLength: 3,
+        GreyhoundBusLineCodes: ["GLC", "GLI", "GDM"],
+        NonTravelerAdminFee: 18,
+        GenericErrorUrl: "/en/error",
+        PaymentErrorUrl: "/en/error/payment-error",
+        PayNearMeErrorUrl: "/en/error/pnm-error",
+        PaymentDeclinedUrl: "/en/error/payment-declined",
+        NoRoutesErrorUrl: "/en/error/no-routes",
+        TooLateForOnlinePurchase: "/en/error/too-late-for-online-purchase",
+        NoSeatsAvailableUrl: "/en/error/no-seats-available",
+        ScheduleUrl: "/en/ecommerce/schedule",
+        ScheduleSearchRedirectUrl: "/en/ecommerce/schedule-search-redirect",
+        PrintVoucherUrl: "/en/help-and-info/road-rewards/print-voucher",
+        CalendarTilesCountRegular: 7,
+        CalendarTilesCountMobile: 3,
+        CalendarFaresDisplayRegular: 7,
+        CalendarFaresDisplayMobile: 3,
+        MajorPriceChangeThreshold: 1,
+        MaxReCheckPurchaseStatusCount: 60,
+        SessionTimeoutRedirectUrl: "/en/info/session-timeout",
+        CookiesDisabledRedirect: "/en/error/cookies-disabled",
+        RestStopDurationThreshold: 10,
+        IsHomePage: false,
+        ShowStops: true,
+        SSOCookie: 'GreyhoundSSO',
+        ServerDate: utcDate,
+        //ServerDate: new Date(2019, 0, 15, 22, 32, 5),
+        EncryptedDateStamp: "4-p0$;'^6Hy#p21!R6%P4-p0F#@J4-p0j+!-$;'^4-p0U-?/4-p0",
+        //TODO:Check the version
+        
+        SiteLanguage: "en",
+        DatePickerLanguage: "en",
+        MapboxToken: "pk.eyJ1IjoiZ3JleWhvdW5kMSIsImEiOiJjaWkwZ3ljaGQwNHZkdGxtMTBqaWJsbWt0In0.iIeA3Sv8hCSHqbjUU2XwUA",
+        HideHeader: false,
+        EnableCallCenterUserPayWithCash: true,
+        ScheduleSearchIgnoredCodes: "100055,100050",
+        RoadRewardSignupPage: "/en/help-and-info/road-rewards",
+        LinkOpensInNewTab: "(link opens in a new tab)",
+        MaxSavedTokens: 5,
+        PaymentPageMaxTime: 20,
+        PaymentPageMinTime: 5,
+        SessionDuration: 20,
+        MaxPassengerCount: 9,
+        TNCVersion: 1,
+        NATPCountries: "CAN, BMU, AIA, ATG, BHS, BRB, VGB, CYM, DMA, DOM, GRD, JAM, MSR, MAF, KNA, LCA, VCT, TTO, TCA",
+        DefaultForeignPhone: "1212121212",
+        UseCalendarSearch: true,
+        EnableBounceExchange: true,
+        BounceExchangeId: "2351",
+        CanadaStateList: "AB, BC, MB, NB, NF, NT, NS, NU, ON, PE, PQ, SK, YT",
+        EnableGateAssignment: false,
+        GateAssignmentUrl: "https://10.158.81.69:9092/eapi/gatemanagement/v1/gate/getGateAssignment",
+        UnsupportedBrowserMsg: '<div class="legacy-browser">    <h1>Your current browser doesn\'t show us at our best</h1>    <p>Try one of these options or upgrade your browser for a better experience on Greyhound.com</p>    <div class="blinks-wrap"><a class="browser-link firefox" href="https://www.mozilla.org/en-US/firefox/new/"><img title="Firefox" src="/content/images/browsers/firefox.gif"/></a>        <a href="https://www.google.com/chrome/browser/desktop/" class="browser-link chrome"><img title="Chrome" src="/content/images/browsers/chrome.gif" /></a>        <a            class="browser-link safari" href="https://www.microsoft.com/en-us/windows/microsoft-edge" style="padding-top:10px"><img title="edge" width="82px" height="115px" src="~/media/Greyhound/Images/Logos/edge"  /></a>            <a class="browser-link opera" href="http://www.opera.com/computer/windows"><img title="Opera" src="/content/images/browsers/opera.gif" /></a>    </div>    </div>',
+        GHRewardsEnrollUrl: 'https://pegasus.greyhound.com/GhLoyaltyProgram/',
+        EnablePod: true,
+        CookieVersion: '1.19'
+    };
+
+    setInterval(function () {
+        ConfigurationSettings.ServerDate.setSeconds(ConfigurationSettings.ServerDate.getSeconds() + 3);
+    }, 3000);
+
+    function getServerDate() {
+        return new Date(ConfigurationSettings.ServerDate);
+    }
+
+</script>
+    
+<style type="text/css">.c1-ui-state-hover {background-color:yellow !important; padding:5px !important }</style></head>
+<body>
+    
+
+<link href="./tickets_files/ticketsbundle.css" rel="stylesheet">
+
+
+<div id="tickets-template" style="">
+    <div class="print-ticket-container tall" style="page-break-after: always;">
+        <div class="coupon-header clearfix">
+            <div class="head-left">
+                <img src="./tickets_files/Desktop Logo.png" class="logo" alt="Greyhound">
+                <p class="fare-type small-grey-caps">Economy</p>
+            </div>
+            <p class="print-ticket-btn">
+                <a href="javascript:window.print()" class="btn btn-tertiary">Print Ticket</a>
+            </p>
+            <div class="circle-container">
+                <div id="circle-outer" class="orange">
+                    <div id="circle" class="orange">
+                        <p class="boarding-number">Boarding #<br><span class="number">5</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="super-number small-grey-caps">0402</div>
+
+        </div>
+
+        <div id="check-gate00" class="check-gate small-grey-caps check-gate-default">
+            Gate # - check at station
+        </div>
+        <div class="gate-loading check-gate small-grey-caps" style="display:none;">
+            <img alt="" src="./tickets_files/snake_lrg.gif" style="width: 40px; height: 40px;">
+        </div>
+        <div id="gate-text00" class="check-gate small-grey-caps" style="display:none;">
+            Gate #
+        </div>
+
+        <div class="trip-detail clearfix ticket">
+            <div class="info-pair first">
+                <span class="cell-head">Passenger</span>
+                <span class="info large-blue">SRIKANTH ANURADHA</span>
+            </div>
+            <div class="info-pair">
+                <span class="cell-head">Departing @ 4:40 pm</span>
+                <span class="info large-blue"> Washington, DC</span>
+            </div>
+            <div class="info-pair">
+                <span class="cell-head">Arriving @ 11:15 pm</span>
+                <span class="info large-blue"> Pittsburgh, PA</span>
+            </div>
+        </div>
+
+        <div class="background-panel  ticket clearfix">
+            <div class="trip-detail clearfix ticket">
+                <div class="info-pair">
+                    <span class="cell-head">Schedule#</span>
+                    <span class="info large-blue"> GLI1607</span>
+                </div>
+                <div class="info-pair">
+                    <span class="cell-head">Leaving on</span>
+                    <span class="info large-blue"> Wed Jan 16 2019</span>
+                </div>
+                <div class="info-pair origin">
+                    <span class="cell-head">Boarding at</span>
+                    <span class="info large-blue">4:20 pm</span>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <img src="./tickets_files/Cityscape.png" class="illustration ticket" alt="Cityscape">
+
+        <div class="info-barcodes clearfix">
+            <div class="barcode left">
+                <p class="tariff-tax"><span class="tariff">Tariff: PRO-ECON</span> <span class="tax">Tax: </span></p>
+                <p class="tariff-tax-numbers">
+                    <span class="left">0002700</span>
+                    <span class="middle">277 of 554</span>
+                    <span class="right">0006660</span>
+                </p>
+                <div class="barcode-img">
+                    <img class="barcode" alt="0010129593079153" data-code="0010129593079153" src="./tickets_files/0010129593079153">
+                </div>
+                <span class="barcode-number">0010129593079153</span>
+            </div>
+            <p class="ticket-numbers">
+                <span class="confirmation-no small-grey-caps">Confirmation # 17067966</span>
+            </p>
+
+            <hr class="dashed">
+
+            <div class="trip-detail clearfix ticket">
+                <div class="info-pair">
+                    <span class="cell-head">Trip Origin</span>
+                    <span class="info large-blue">Washington, DC</span>
+                </div>
+                <div class="info-pair">
+                    <span class="cell-head">Trip Destination</span>
+                    <span class="info large-blue">Pittsburgh, PA</span>
+                </div>
+                <div class="info-pair">
+                    <span class="cell-head">Trip Ticket</span>
+                    <span class="info large-blue">1 of 2</span>
+                </div>
+
+                <div class="barcode right">
+                    <p class="tariff-tax"><span class="tariff">Tariff: PRO-ECON</span> <span class="tax">Tax: </span></p>
+
+                    <p class="tariff-tax-numbers">
+                        <span class="left">0002700</span>
+                        <span class="middle">277 of 554</span>
+                        <span class="right">0006660</span>
+                    </p>
+                    <div class="barcode-img">
+                        <img class="barcode" alt="0010129593079153" data-code="0010129593079153" src="./tickets_files/0010129593079153">
+                    </div>
+                    <span class="barcode-number">0010129593079153</span>
+                </div>
+            </div>
+        </div>
+
+        <hr class="dashed">
+
+
+        <div class="terms-and-conditions">
+            <p class="small-grey">All customers agree to all terms and conditions found at www.greyhound.com. Seating aboard vehicles is without regard to race, color, creed, religion, gender, national origin or physical ability. For help, please call (800) 231-2222.</p>
+        </div>
+
+
+        <hr class="dashed">
+    </div>
+    <div class="print-ticket-container tall" style="page-break-after: always;">
+        <div class="coupon-header clearfix">
+            <div class="head-left">
+                <img src="./tickets_files/Desktop Logo.png" class="logo" alt="Greyhound">
+                <p class="fare-type small-grey-caps">Economy</p>
+            </div>
+            <p class="print-ticket-btn">
+                <a href="javascript:window.print()" class="btn btn-tertiary">Print Ticket</a>
+            </p>
+            <div class="circle-container">
+                <div id="circle-outer" class="orange">
+                    <div id="circle" class="orange">
+                        <p class="boarding-number">Boarding #<br><span class="number">4</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="super-number small-grey-caps">0810</div>
+
+        </div>
+
+        <div id="check-gate01" class="check-gate small-grey-caps check-gate-default">
+            Gate # - check at station
+        </div>
+        <div class="gate-loading check-gate small-grey-caps" style="display:none;">
+            <img alt="" src="./tickets_files/snake_lrg.gif" style="width: 40px; height: 40px;">
+        </div>
+        <div id="gate-text01" class="check-gate small-grey-caps" style="display:none;">
+            Gate #
+        </div>
+
+        <div class="trip-detail clearfix ticket">
+            <div class="info-pair first">
+                <span class="cell-head">Passenger</span>
+                <span class="info large-blue">SRIKANTH ANURADHA</span>
+            </div>
+            <div class="info-pair">
+                <span class="cell-head">Departing @ 10:40 pm</span>
+                <span class="info large-blue"> Pittsburgh, PA</span>
+            </div>
+            <div class="info-pair">
+                <span class="cell-head">Arriving @ 4:50 am</span>
+                <span class="info large-blue"> Washington, DC</span>
+            </div>
+        </div>
+
+        <div class="background-panel  ticket clearfix">
+            <div class="trip-detail clearfix ticket">
+                <div class="info-pair">
+                    <span class="cell-head">Schedule#</span>
+                    <span class="info large-blue"> GLI1620</span>
+                </div>
+                <div class="info-pair">
+                    <span class="cell-head">Leaving on</span>
+                    <span class="info large-blue"> Mon Jan 21 2019</span>
+                </div>
+                <div class="info-pair origin">
+                    <span class="cell-head">Boarding at</span>
+                    <span class="info large-blue">10:20 pm</span>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <img src="./tickets_files/Cityscape.png" class="illustration ticket" alt="Cityscape">
+
+        <div class="info-barcodes clearfix">
+            <div class="barcode left">
+                <p class="tariff-tax"><span class="tariff">Tariff: PRO-ECON</span> <span class="tax">Tax: </span></p>
+                <p class="tariff-tax-numbers">
+                    <span class="left">0003960</span>
+                    <span class="middle">277 of 554</span>
+                    <span class="right">0006660</span>
+                </p>
+                <div class="barcode-img">
+                    <img class="barcode" alt="0010229593079153" data-code="0010229593079153" src="./tickets_files/0010229593079153">
+                </div>
+                <span class="barcode-number">0010229593079153</span>
+            </div>
+            <p class="ticket-numbers">
+                <span class="confirmation-no small-grey-caps">Confirmation # 17067966</span>
+            </p>
+
+            <hr class="dashed">
+
+            <div class="trip-detail clearfix ticket">
+                <div class="info-pair">
+                    <span class="cell-head">Trip Origin</span>
+                    <span class="info large-blue">Washington, DC</span>
+                </div>
+                <div class="info-pair">
+                    <span class="cell-head">Trip Destination</span>
+                    <span class="info large-blue">Pittsburgh, PA</span>
+                </div>
+                <div class="info-pair">
+                    <span class="cell-head">Trip Ticket</span>
+                    <span class="info large-blue">2 of 2</span>
+                </div>
+
+                <div class="barcode right">
+                    <p class="tariff-tax"><span class="tariff">Tariff: PRO-ECON</span> <span class="tax">Tax: </span></p>
+
+                    <p class="tariff-tax-numbers">
+                        <span class="left">0003960</span>
+                        <span class="middle">277 of 554</span>
+                        <span class="right">0006660</span>
+                    </p>
+                    <div class="barcode-img">
+                        <img class="barcode" alt="0010229593079153" data-code="0010229593079153" src="./tickets_files/0010229593079153">
+                    </div>
+                    <span class="barcode-number">0010229593079153</span>
+                </div>
+            </div>
+        </div>
+
+        <hr class="dashed">
+
+
+        <div class="terms-and-conditions">
+            <p class="small-grey">All customers agree to all terms and conditions found at www.greyhound.com. Seating aboard vehicles is without regard to race, color, creed, religion, gender, national origin or physical ability. For help, please call (800) 231-2222.</p>
+        </div>
+
+
+        <hr class="dashed">
+    </div>
+</div>
+<div id="vouchers-template" style="display: none;">
+    {{#each Tickets}}
+    {{#each Coupons}}
+    {{#if ShowVoucher}}
+    {{#if IsPriorityBoarding}}
+    <div class="print-ticket-container">
+        <div class="coupon-header clearfix">
+            <img src="./tickets_files/Desktop Logo.png" class="logo" alt="Greyhound">
+            <p class="passenger-block">
+                <span class="confirmation-no small-grey-caps">Confirmation# {{../ConfirmationNumber}}</span><br>
+                <span class="passenger-name large-blue">{{../PassengerName}}</span>
+            </p>
+        </div>
+
+        <div class="trip-detail clearfix">
+            <div class="circle-container">
+                <div id="circle-outer" class="orange">
+                    <div id="circle" class="orange">
+                        <p class="overlay-text">Priority boarding</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-pair">
+                <span class="cell-head"> Schedule#</span>
+                <span class="info large-blue"> {{ScheduleNumber}}</span>
+            </div>
+            <div class="info-pair">
+                <span class="cell-head">Date</span>
+                <span class="info large-blue"> {{dateFormat DepartDateTime format="ddd MMM D YYYY"}}</span>
+            </div>
+            {{#ifCond  LegNumber "===" 1}}
+            <div class="info-pair origin">
+                <span class="cell-head">DEPARTING</span>
+                <span class="info large-blue"> {{../Origin.City}}, {{../Origin.State}}</span>
+            </div>
+            <div class="info-pair destination">
+                <span class="cell-head">ARRIVING</span>
+                <span class="info large-blue"> {{../Destination.City}}, {{../Destination.State}}</span>
+            </div>
+            {{else}}
+            <div class="info-pair origin">
+                <span class="cell-head">DEPARTING</span>
+                <span class="info large-blue"> {{../Destination.City}}, {{../Destination.State}}</span>
+            </div>
+            <div class="info-pair destination">
+                <span class="cell-head">ARRIVING</span>
+                <span class="info large-blue"> {{../Origin.City}}, {{../Origin.State}}</span>
+            </div>
+            {{/ifCond}}
+        </div>
+
+        <div class="background-panel clearfix">
+            <h2 class="small-grey-caps without-tracking">Please Note: This is not your Ticket</h2>
+            <p>You must bring this coupon on the day of travel to use your priority boarding benefits.</p>
+        </div>
+
+        <img src="./tickets_files/Cityscape.png" class="illustration" alt="Cityscape">
+    </div>
+    {{/if}}
+    {{#if IsSecondBagFree}}
+    <div class="print-ticket-container">
+        <div class="coupon-header clearfix">
+            <img src="./tickets_files/Desktop Logo.png" class="logo" alt="Greyhound">
+            <p class="passenger-block">
+                <span class="confirmation-no small-grey-caps">Confirmation# {{../ConfirmationNumber}}</span><br>
+                <span class="passenger-name large-blue">{{../PassengerName}}</span>
+            </p>
+        </div>
+
+        <div class="trip-detail clearfix baggage">
+            <div class="info-pair">
+                <span class="cell-head">Schedule#</span>
+                <span class="info large-blue"> {{ScheduleNumber}}</span>
+            </div>
+            <div class="info-pair">
+                <span class="cell-head">Date</span>
+                <span class="info large-blue"> {{dateFormat DepartDateTime format="ddd MMM D YYYY"}}</span>
+            </div>
+            {{#ifCond  LegNumber "===" 1}}
+            <div class="info-pair origin">
+                <span class="cell-head">DEPARTING</span>
+                <span class="info large-blue"> {{../Origin.City}}, {{../Origin.State}}</span>
+            </div>
+            <div class="info-pair destination">
+                <span class="cell-head">ARRIVING</span>
+                <span class="info large-blue"> {{../Destination.City}}, {{../Destination.State}}</span>
+            </div>
+            {{else}}
+            <div class="info-pair origin">
+                <span class="cell-head">DEPARTING</span>
+                <span class="info large-blue"> {{../Destination.City}}, {{../Destination.State}}</span>
+            </div>
+            <div class="info-pair destination">
+                <span class="cell-head">ARRIVING</span>
+                <span class="info large-blue"> {{../Origin.City}}, {{../Origin.State}}</span>
+            </div>
+            {{/ifCond}}
+        </div>
+
+        <div class="background-panel  baggage clearfix">
+            <h2 class="small-grey-caps without-tracking">Please Note: This is not your Ticket</h2>
+            <p>You must bring this coupon on the day of travel to claim your baggage benefits. Please see an agent at the station to get baggage tags for checked bags.</p>
+        </div>
+
+        <img src="./tickets_files/Cityscape.png" class="illustration" alt="Cityscape">
+    </div>
+    {{/if}}
+    <div style="page-break-after: always;"></div>
+    {{/if}}
+    {{/each}}
+    {{/each}}
+</div>
+<div class="loader-overlay" style="text-align: center; display: none;">
+    <h1>
+        Loading...
+    </h1>
+    <p class="loading-gif">
+        <img width="98" src="./tickets_files/snake_lrg.gif" alt="">
+    </p>
+</div>
+<div id="error-template" style="text-align: center; display: none;">
+    <h1>
+        Error!
+    </h1>
+    <p class="loading-gif">
+        {{Code}}: {{Message}}
+    </p>
+</div>
+<script type="text/javascript">
+    $gh(window).load(function () {
+        TicketsPage().init();
+    });
+</script>
+<script type="text/javascript">
+    var fareTypes = {"Economy":{"Name":"Economy","Refundable":"Non Refundable","Fee":"$20 fee to change date/time before trip date","Points":"Earn 1 Road Reward point each way","Bags":"1 checked bag free (2nd & 3rd bags $20 each)","Free_Bags_Count":1,"Boarding":" - ","Standby":" - ","PointsEarned":"1","Style":"economy","BaggageImage":"/-/media/greyhound/images/fares/baggage-economy.svg","Baggage_Description":"<p><strong>1 carry-on bag:</strong> this needs to fit in the overhead storage, or under the seat in front of you (yes, like on a plane).<br>Max weight: 25lbs.</p><p><strong>1 checked bag:</strong> this goes in the storage compartment under the bus.<br>Max weight: 50lbs<br>Max size: 62 inches total (length + width + height)</p><p><strong>Other baggage:</strong><br>2nd & 3rd checked bags - $20 each<br>Additional bags and oversized items will need to be sent by our package delivery service.</p>","BaggageInfoLink":"/en/help-and-info/travel-info/baggage","Fare_Description":"","Additional_Fare_Features_Schedule_Page":"","Additional_Fare_Features_Payment_Confirmation_Pages":"","Change_Trip_Header":"","Change_Trip_Subheader":"","Change_Trip_Description":"","Change_Trip_Button_Text":"","ChangeTripButtonLink":""},"EconomyExtra":{"Name":"EconomyExtra","Refundable":"Non Refundable","Fee":"$20 fee to change date/time before trip date","Points":"Earn 2 Road Reward points each way","Bags":"1 checked bag free (2nd & 3rd bags $20 each)","Free_Bags_Count":1,"Boarding":"Priority Boarding","Standby":"Free Same Day Exchange","PointsEarned":"2","Style":"economy-extra","BaggageImage":"/-/media/greyhound/images/fares/baggage-economy.svg","Baggage_Description":"<strong>1 carry-on bag:</strong> this needs to fit in the overhead storage, or under the seat in front of you (yes, like on a plane).<br>Max weight: 25lbs.</p><p><strong>1 checked bag:</strong> this goes in the storage compartment under the bus.<br>Max weight: 50lbs<br>Max size: 62 inches total (length + width + height)</p><p><strong>Other baggage:</strong><br>2nd & 3rd checked bags - $20 each<br>Additional bags and oversized items will need to be sent by our package delivery service.</p>","BaggageInfoLink":"/en/help-and-info/travel-info/baggage","Fare_Description":"","Additional_Fare_Features_Schedule_Page":"","Additional_Fare_Features_Payment_Confirmation_Pages":"","Change_Trip_Header":"","Change_Trip_Subheader":"","Change_Trip_Description":"","Change_Trip_Button_Text":"","ChangeTripButtonLink":""},"Flexible":{"Name":"Flexible","Refundable":"Refundable Fare","Fee":"No fee to change date/time before trip date","Points":"Earn 3 Road Reward points each way","Bags":"2 checked bags free (3rd bags $20)","Free_Bags_Count":2,"Boarding":"Priority Boarding","Standby":"Free Same Day Exchange","PointsEarned":"3","Style":"flexible","BaggageImage":"/-/media/greyhound/images/fares/baggage-flexible.svg","Baggage_Description":"<p><strong>1 carry-on bag:</strong> this needs to fit in the overhead storage, or under the seat in front of you (yes, like on a plane).<br>Max weight: 25lbs.</p><p><strong>2 checked bags:</strong> these will go in the storage compartment under the bus.<br>Max weight: 50lbs<br>Max size: 62 inches total (length + width + height)</p><p><strong>Other baggage:</strong>2 checked bags free (3rd bag $20)<br>Additional bags and oversized items will need to be sent by our package delivery service.</p>","BaggageInfoLink":"/en/help-and-info/travel-info/baggage","Fare_Description":"","Additional_Fare_Features_Schedule_Page":"","Additional_Fare_Features_Payment_Confirmation_Pages":"","Change_Trip_Header":"","Change_Trip_Subheader":"","Change_Trip_Description":"","Change_Trip_Button_Text":"","ChangeTripButtonLink":""},"OfflineEconomy":{"Name":"OfflineEconomy","Refundable":"-","Fee":"-","Points":"Earn 1 Road Reward point each way","Bags":"1 checked bag free (2nd & 3rd bags $20 each)","Free_Bags_Count":1,"Boarding":" - ","Standby":" - ","PointsEarned":"1","Style":"economy","BaggageImage":"/-/media/greyhound/images/fares/baggage-economy.svg","Baggage_Description":"<p><strong>1 carry-on bag:</strong> this needs to fit in the overhead storage, or under the seat in front of you (yes, like on a plane).<br>Max weight: 25lbs.</p><p><strong>1 checked bag:</strong> this goes in the storage compartment under the bus.<br>Max weight: 50lbs<br>Max size: 62 inches total (length + width + height)</p><p><strong>Other baggage:</strong><br>2nd & 3rd checked bags - $20 each<br>Additional bags and oversized items will need to be sent by our package delivery service.</p>","BaggageInfoLink":"/en/help-and-info/travel-info/baggage","Fare_Description":"Fares may vary, check back day of departure for current price.","Additional_Fare_Features_Schedule_Page":"","Additional_Fare_Features_Payment_Confirmation_Pages":"","Change_Trip_Header":"","Change_Trip_Subheader":"","Change_Trip_Description":"","Change_Trip_Button_Text":"","ChangeTripButtonLink":""},"OfflineEconomyExtra":{"Name":"OfflineEconomyExtra","Refundable":"Non Refundable","Fee":"$20 fee to change date/time before trip date","Points":"Earn 1 Road Reward point each way","Bags":"1 checked bag free (2nd & 3rd bags $20 each)","Free_Bags_Count":1,"Boarding":"-","Standby":"-","PointsEarned":"1","Style":"ecomony-extra","BaggageImage":"/-/media/greyhound/images/fares/baggage-economy.svg","Baggage_Description":"<strong>1 carry-on bag:</strong> this needs to fit in the overhead storage, or under the seat in front of you (yes, like on a plane).<br>Max weight: 25lbs.</p><p><strong>1 checked bag:</strong> this goes in the storage compartment under the bus.<br>Max weight: 50lbs<br>Max size: 62 inches total (length + width + height)</p><p><strong>Other baggage:</strong><br>2nd & 3rd checked bags - $20 each<br>Additional bags and oversized items will need to be sent by our package delivery service.</p>","BaggageInfoLink":"/en/help-and-info/travel-info/baggage","Fare_Description":"Buy at a bus station or another ticket retailer","Additional_Fare_Features_Schedule_Page":"","Additional_Fare_Features_Payment_Confirmation_Pages":"","Change_Trip_Header":"","Change_Trip_Subheader":"","Change_Trip_Description":"","Change_Trip_Button_Text":"","ChangeTripButtonLink":""},"OfflineFlexible":{"Name":"OfflineFlexible","Refundable":"Refundable Fare","Fee":"No fee to change date/time before trip date","Points":"Earn 1 Road Reward point each way","Bags":"1 checked bag free (2nd & 3rd bags $20 each)","Free_Bags_Count":1,"Boarding":"-","Standby":"Free Same Day Exchange","PointsEarned":"1","Style":"flexible","BaggageImage":"/-/media/greyhound/images/fares/baggage-flexible.svg","Baggage_Description":"<p><strong>1 carry-on bag:</strong> this needs to fit in the overhead storage, or under the seat in front of you (yes, like on a plane).<br>Max weight: 25lbs.</p><p><strong>2 checked bags:</strong> these will go in the storage compartment under the bus.<br>Max weight: 50lbs<br>Max size: 62 inches total (length + width + height)</p><p><strong>Other baggage:</strong>2 checked bags free (3rd bag $20)<br>Additional bags and oversized items will need to be sent by our package delivery service.</p>","BaggageInfoLink":"/en/help-and-info/travel-info/baggage","Fare_Description":"Buy at a bus station or another ticket retailer","Additional_Fare_Features_Schedule_Page":"","Additional_Fare_Features_Payment_Confirmation_Pages":"","Change_Trip_Header":"","Change_Trip_Subheader":"","Change_Trip_Description":"","Change_Trip_Button_Text":"","ChangeTripButtonLink":""}},
+        ticketSummaryLabels = {"FeeTypes":{"Heading":"Fees","Types":{"CardholderNotTraveling":"Gift Ticket Fee","FareFinder":"Service Fee","OvernightMail":"Overnight Mail Fee","PriceGuarantee":"Price Guarantee Fee","PriorityMail":"Priority Mail Fee","StandardMail":"Standard Mail Fee","Trip":"Trip Fee","WillCall":"Call Center Booking Fee"}},"TaxTypes":{"Heading":"Taxes","Types":{"FederalTax":"Federal","LocalTax":"Local","StateTax":"State"}}},
+        discountTypes = {"Companions":{"Text":"Companions"},"Student":{"Text":"Student Advantage"},"Veteran":{"Text":"Veterans Advantage"}},
+        rewardsTypes = {"10% off Food Purchases":{"Description":"10% off Food Purchases"},"food 10 content only":{"Description":"10% off Food Purchases"},"10% off Ticket Purchase":{"Description":"10% off Ticket Purchase"},"15% off Ticket Purchase":{"Description":"15% off Ticket Purchase"},"20% off Ticket Purchase":{"Description":"20% off Ticket Purchase"},"50% off Ticket Purchase":{"Description":"50% off Ticket Purchase"},"Companion Pass":{"Description":"Companion Pass"},"companion 6 content only":{"Description":"Companion Pass"},"Default":{"Description":"Reward"},"Free Ticket":{"Description":"Free Ticket"}};
+        specialNeeds = {"":"No Special Needs","WHEELCHAIR":"Wheelchair","HEARING IMPAIRED":"Hearing Impaired","SIGHT IMPAIRED":"Sight Impaired","SERVICE ANIMAL":"Service Animal","OTHERSPECIALNEED":"Other Special Need","STOW-WHEELCHAIR":"Stowed Wheelchair"};
+</script>
+    <script src="./tickets_files/build.js"></script><div class="device-xs visible-xs"></div><div class="device-sm visible-sm"></div><div class="device-md visible-md"></div><div class="device-lg visible-lg"></div>
+
+    <script src="./tickets_files/ecommerce.js"></script>
+
+
+<script src="./tickets_files/browser-update.js"></script></body></html>
